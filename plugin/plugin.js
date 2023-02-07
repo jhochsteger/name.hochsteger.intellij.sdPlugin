@@ -39,7 +39,8 @@ class StreamDeckSocket {
         this.websocket.onmessage = function (evt) {
             const jsonObj = JSON.parse(evt.data);
             const event = jsonObj["event"];
-            that.notifyObservers(event, jsonObj);
+            const action = jsonObj["action"];
+            that.notifyObservers(action, event, jsonObj);
         }
     }
 

@@ -1,30 +1,30 @@
 {
   "Actions": [
     {
-      "Icon": "images/actions/test/action/actionimage",
-      "Name": "Template",
+      "Icon": "images/Intellij_IDEA_icon",
+      "Name": "Run",
       "States": [
         {
-          "Name": "Template",
-          "Image": "images/actions/test/key/image",
+          "Name": "Run",
+          "Image": "images/Intellij_IDEA_icon",
           "TitleAlignment": "middle",
           "FontSize": "16"
         }
       ],
-      "SupportedInMultiActions": false,
-      "Tooltip": "Template Action Tooltip",
-      "UUID": "name.hochsteger.template.action"
+      "SupportedInMultiActions": true,
+      "Tooltip": "The run Action",
+      "UUID": "name.hochsteger.intellij.run"
     }
   ],
   "SDKVersion": 2,
   "Author": "Jonas Hochsteger",
   "CodePath": "plugin/plugin.html",
   "PropertyInspectorPath": "pi/pi.html",
-  "Description": "Template for Stream Deck Plugins",
-  "Category": "Template",
-  "CategoryIcon": "images/default",
-  "Name": "Template",
-  "Icon": "images/default",
+  "Description": "A Plugin for Intellij",
+  "Category": "Intellij",
+  "CategoryIcon": "images/Intellij_IDEA_icon",
+  "Name": "Intellij",
+  "Icon": "images/Intellij_IDEA_icon",
   "Version": "1.0",
   "OS": [
     {
