@@ -1,0 +1,43 @@
+{
+  "Actions": [
+    {
+      "Icon": "images/actions/test/action/actionimage",
+      "Name": "Template",
+      "States": [
+        {
+          "Name": "Template",
+          "Image": "images/actions/test/key/image",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Template Action Tooltip",
+      "UUID": "name.hochsteger.template.action"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "Jonas Hochsteger",
+  "CodePath": "plugin/plugin.html",
+  "PropertyInspectorPath": "pi/pi.html",
+  "Description": "Template for Stream Deck Plugins",
+  "Category": "Template",
+  "CategoryIcon": "images/default",
+  "Name": "Template",
+  "Icon": "images/default",
+  "Version": "1.0",
+  "OS": [
+    {
+        "Platform": "mac",
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows",
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software":
+    {
+        "MinimumVersion" : "4.1"
+    }
+}
